@@ -49,6 +49,11 @@
         visibility: hidden;
     }
 
+    @page{
+        size: landscape;
+        margin: none;
+    }
+
     body {
         background-image: url(/cert.png);
         visibility: visible;
