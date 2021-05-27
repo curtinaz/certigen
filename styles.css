@@ -1,6 +1,12 @@
 @media print {
 
+    *{
+        visibility: hidden;
+    }
+
+
     .vai {
+        display: block;
     }
 
 }
