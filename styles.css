@@ -6,7 +6,7 @@
 
 
     .vai {
-        display: block;
+        visibility: visible;
     }
 
 }
