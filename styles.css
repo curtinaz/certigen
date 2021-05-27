@@ -1,3 +1,43 @@
+/* FORÇA O LANDSCAPE */
+
+#container { display:block; }
+
+@media only screen and (orientation:portrait){
+
+  #container {
+
+   height: 100vw;
+
+   -webkit-transform: rotate(90deg);
+
+   -moz-transform: rotate(90deg);
+
+   -o-transform: rotate(90deg);
+
+   -ms-transform: rotate(90deg);
+
+   transform: rotate(90deg);
+
+  }
+
+}
+
+@media only screen and (orientation:landscape){
+
+  #container {
+
+  -webkit-transform: rotate(0deg);
+
+  -moz-transform: rotate(0deg);
+
+  -o-transform: rotate(0deg);
+
+  -ms-transform: rotate(0deg);
+
+  transform: rotate(0deg);
+
+   }
+
 @page{
     size: landscape;
     margin: none;
@@ -9,7 +49,7 @@
     }
 
     body {
-        background-image: url(./cert.png);
+        background-image: url(/cert.png);
         visibility: visible;
     }
 
@@ -17,7 +57,7 @@
     .vai {
         visibility: visible;
         position: fixed;
-        top: 30%;
+        top: 20%;
         left: 50%;
         transform: translateX(-50%);
     }
