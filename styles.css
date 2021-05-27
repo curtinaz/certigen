@@ -1,11 +1,6 @@
 @media print {
 
-* {
-    visibility: hidden;
-}
-
     .vai {
-        visibility: default;
     }
 
 }
